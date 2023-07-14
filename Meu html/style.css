@@ -1,0 +1,101 @@
+body, html{   
+    position: relative;
+    margin: auto;
+    height: 100%;
+}
+ 
+.bg-image{   
+
+  background-image: url('../imagens/R.jpeg');
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  height: 670px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btnlogin{
+    position: absolute;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    width: 90px;
+    top: 4px;
+    left: 1155px;
+    color: rgba(255, 255, 255, 0);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.btnlogin:hover{
+    background-color: whitesmoke;
+}
+
+.labelclass{
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.btnmenu{
+    position: absolute;
+    border: none;
+    border-radius: 8px;
+    background-color: transparent;
+    top: 4px;
+    left: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.btn-secondary{
+    background-color: transparent;
+}
+
+.btn-secondary:hover{
+    background-color: whitesmoke;
+}
+
+.github{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 100px;
+    left: 545px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.youtube{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 99px;
+    left: 521.5px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.instagram{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 100.2px;
+    left: 500px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}

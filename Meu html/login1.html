@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="..\..\imagens\introdução.ico" type="image/ico">
+    <title>Login</title>
+</head>
+<body>
+    
+<style>
+    body,html{
+        height: 98%;
+        border: none;
+        position: relative;
+        background: linear-gradient(0.2turn, rgb(255, 255, 255),rgb(255, 255, 230),rgb(255, 255, 220));
+    }
+
+    .bg-image{   
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    height: 50px;
+    }
+    .Espacopreencher{
+        margin:auto;
+        position: absolute; 
+        border: 3px solid grey;
+        left: 460px;
+        top: 20px;
+        width: 30%;
+        height: 400px;
+        box-shadow: 20px 15px 30px rgb(109, 109, 109);
+    }
+
+    .txtlogin{
+        position: absolute;
+        left: 487px;
+        top: 110px;
+        font-size: 20px;
+    }
+    .txtlogin2{
+        position: absolute;
+        left: 560px;
+        top: 105px;
+        font-size: 20px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 4px;
+    }
+
+    .txtsenha{
+        position: absolute;
+        left: 487px;
+        top: 169px;
+        font-size: 20px;
+    }
+    .txtsenha2{
+        position: absolute;
+        left: 560px;
+        top: 165px;
+        font-size: 20px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 4px;
+    }
+    
+    h1{
+        position: absolute;
+        left: 548px;
+        top: 22px;
+        
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .h1circle{
+        position: absolute;
+        left: 500px;
+        top: 38px;
+        height: 40px;
+        width: 290px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 80px;
+    }
+
+    .btnlogar{
+        position: absolute;
+        left: 490px;
+        top: 220px;
+        height: auto;
+        width: 150px;
+        color: white;
+        background-color: #91ff00;
+        border: white ;
+        border-radius: 2px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .btnlogar:hover{
+        background-color: grey;
+        animation: 5s;
+    }
+    .btnlogar2{
+        position: absolute;
+        left: 650px;
+        top: 220px;
+        height: auto;
+        width: 150px;
+        color: white;
+        background-color: #91ff00;
+        border: white;
+        border-radius: 2px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .btnlogar2:hover{
+        background-color: grey;
+        animation: 5s;
+    }
+</style>
+
+    <div class="backgroundlogin"></div>
+    <div class = "Espacopreencher">
+    </div>
+    <div class = "h1circle"></div>
+    <h1>Sessão de login</h1>
+    
+    <form action="index.html" method="POST">
+
+    <label class = "txtlogin">usuario: </label>
+    <input type = "text" class = "txtlogin2" id = "usuario" name = "usuario" required>
+
+    <label class = "txtsenha">senha: </label>
+    <input type = "text" class = "txtsenha2" id = "senha" name = "senha" required>
+
+    <button type="button" class = "btnlogar" onclick="location.href='index.html'">Entrar</button>
+        <button type="button" class = "btnlogar2" onclick="location.href='registrar.html'">Registrar</button>
+    </form>
+    
+</body>
+</html>
